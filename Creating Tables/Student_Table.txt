@@ -1,0 +1,24 @@
+ CREATE TABLE STUDENT (
+     Student_ID int,
+     Enrollment_Number varchar,
+     First_Name varchar,
+     Middle_Name varchar,
+     Last_Name varchar,
+     Age int,
+     Sex varchar,
+     Date_Of_Birth ,
+     Address varchar );
+
+
+ --Inserting Values in Table
+ INSERT INTO STUDENT VALUES 
+ (001,'AB001','SUKANT','KRISHNA','KAUSHIK',19,'MALE','2002-03-11'),
+ (002,'AB002','ABHISHEK','','PANDEY',20,'MALE','2001-04-14','CSEB'),
+ (003,'AB003','AASTHA','','PANDEY',20,'FEMALE','2003-04-24','CSEB'),
+ (4,'AB004','PRANJAL',NULL,'CHANNE',20,'MALE','2003-12-25','M.P. NAGAR'),
+ (5,'AB005','KANHA',NULL,'GUPTA',23,'MALE','2000-06-21','KORBA'),
+ (6,'AB006','PRASHANT',NULL,'MOURYA',23,'MALE','2000-05-09','HOUSING BOARD'),
+ (7,'AB007','SANA',NULL,'SINGH',17,'FEMALE','2006-04-20','M.P. NAGAR');
+ (8,'AB008','KUSHAGRAH','KUMAR','RATHOD',23,'MALE','2000-05-30'),
+ (9,'AB009','SHUBHAM',NULL,'GUPTA',23,'MALE','2000-09-22'),
+ (10,'AB010','ROHIT',NULL,'JAIN',24,'MALE','1999-04-08');

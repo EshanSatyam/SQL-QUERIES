@@ -1,0 +1,13 @@
+create table Teacher_Details (
+	
+	teacher_id int,
+	first_name varchar,
+	Last_name varchar,
+    Age int
+	
+);
+
+insert into Teacher_Details values
+(1,'Nelam','Pandey',35),
+(2,'Ravi','Tiwari',40),
+(3,'Nitu','Singh',45);

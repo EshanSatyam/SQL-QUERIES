@@ -1,0 +1,40 @@
+create table Student_Marks_Data (
+	
+	student_id int,
+	course varchar,
+	Marks varchar
+	
+	
+);
+
+insert into Student_Marks_Data values
+(1,'Course 1',80),
+(1,'Course 2',84),
+(1,'Course 3',90),
+(2,'Course 1',72),
+(2,'Course 2',83),
+(2,'Course 3',95),
+(3,'Course 1',86),
+(3,'Course 2',97),
+(3,'Course 3',81),
+(4,'Course 1',83),
+(4,'Course 2',65),
+(4,'Course 3',86),
+(5,'Course 1',96),
+(5,'Course 2',87),
+(5,'Course 3',84),
+(6,'Course 1',63),
+(6,'Course 2',75),
+(6,'Course 3',86),
+(7,'Course 1',87),
+(7,'Course 2',98),
+(7,'Course 3',99),
+(8,'Course 1',82),
+(8,'Course 2',83),
+(8,'Course 3',81),
+(9,'Course 1',84),
+(9,'Course 2',96),
+(9,'Course 3',73),
+(10,'Course 1',85),
+(10,'Course 2',86),
+(10,'Course 3',72)
